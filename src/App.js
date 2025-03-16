@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import RefsDemo from "./components/RefsDemo";
-import InputFocus from "./components/InputFocus";
-import FRParentInput from "./components/FRParentInput";
+import PortalDemo from "./components/PortalDemo";
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-       <FRParentInput />
-        {/* <InputFocus /> */}
-        {/* <RefsDemo /> */}
+       <PortalDemo />
       </div>
     )
   }
