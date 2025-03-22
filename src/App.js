@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hero from "./components/Hero";
-import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ErrorBoundary>
-          <Hero heroName="Spriderman" />
-        </ErrorBoundary>
-        <ErrorBoundary>
-          <Hero heroName="Ironman" />
-        </ErrorBoundary>
-        <ErrorBoundary>
-          <Hero heroName="Thanos" />
-        </ErrorBoundary>
+        <ClickCounter />
+        <HoverCounter />
       </div>
     )
   }
